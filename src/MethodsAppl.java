@@ -8,7 +8,9 @@
  */
 public class MethodsAppl {
     public static void main(String[] args) {
+        System.out.println(" MethodMain started");
         callsMethod1();
+        System.out.println(" MethodMain finished");
     }
 
     private static void callsMethod1() {
